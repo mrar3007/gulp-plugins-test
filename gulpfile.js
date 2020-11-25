@@ -41,8 +41,7 @@ let { src, dest } = require("gulp"),
   webphtml = require('gulp-webp-html'),
   svgSprite = require('gulp-svg-sprite'),
   ttf2woff = require('gulp-ttf2woff'),
-  ttf2woff2 = require('gulp-ttf2woff2'),
-  fonter = require('gulp-fonter');
+  ttf2woff2 = require('gulp-ttf2woff2');
 
 function watchFiles(cb) {
   gulp.watch([path.watch.html], html);
